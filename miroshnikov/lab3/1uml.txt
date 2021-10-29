@@ -1,0 +1,15 @@
+@startuml
+actor "Менеджер" as owner
+boundary "Система сервиса" as app
+boundary "Сайт" as site
+entity "БД" as data
+actor "Механик" as trainee
+owner-> app : Заказ
+app-> data : Запись заказа
+owner-> app : План работ
+app-> data : Запись плана работ
+data-> trainee: Утвержденные работы
+owner-> app : Отзывы
+app-> data : Запись отзывов
+data-> site: Публикация отзывов
+@enduml
