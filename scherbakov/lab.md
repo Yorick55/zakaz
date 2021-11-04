@@ -13,7 +13,7 @@
 
 ## Usecase diagram
 
-![](https://github.com/sickwick/scherbakov.github.io/blob/main/lr1/uml1.png)
+![](https://github.com/sickwick/scherbakov.github.io/blob/main/lr1/uml2.png)
 
 # Лабораторная 2
 ## IDEF0
