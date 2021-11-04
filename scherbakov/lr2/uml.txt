@@ -12,9 +12,9 @@ skinparam usecase {
 left to right direction
 actor P0 as "Человек"
 actor M0 as "Информационная система"
-actor P as "Мастер"
-actor M as "Система управления сервисом"
-usecase A as "Проверка"
+actor P as "Оператор-менеджер"
+actor M as "Система-агрегатор деятельности"
+usecase A as "Управление заказами"
 P -- (A)
 (A) -- M
 P0 <|-- P
