@@ -3,49 +3,49 @@
 # Лабораторная 1
 **Предложение:** Продать квартиру
 
-![](https://github.com/Yorick55/Yorick55.github.io/blob/main/laba1/1_rms.png)
+![](https://github.com/sickwick/scherbakov.github.io/blob/main/lr1/01_A0.png)
 
 **Предложение:** Владельцу нужно продать квартиру и получить деньги до конца месяца, пользуясь услугами риелтора.
 
 ## Class diagram
 
-![](https://github.com/Yorick55/Yorick55.github.io/blob/main/laba1/1_uml.png)
+![](https://github.com/sickwick/scherbakov.github.io/blob/main/lr1/uml1.png)
 
 ## Usecase diagram
 
-![](https://github.com/Yorick55/Yorick55.github.io/blob/main/laba1/2_uml.png)
+![](https://github.com/sickwick/scherbakov.github.io/blob/main/lr1/uml1.png)
 
 # Лабораторная 2
 ## IDEF0
 
-![](https://github.com/Yorick55/Yorick55.github.io/blob/main/laba2/1rms.png)
+![](https://github.com/sickwick/scherbakov.github.io/blob/main/lr2/01_A0.png)
 
 Диаграмма описывает деятельность риелторского агенства.
 
 ## PDC
 
-![](https://github.com/Yorick55/Yorick55.github.io/blob/main/laba2/2rms.png)
+![](https://github.com/sickwick/scherbakov.github.io/blob/main/lr2/02_A0.png)
 
 А1: Оператор-менеджер управляет заказами через систему-агрегатор деятельности и передает характеристики недвижимости риелтору.  
 А2: Риелтор, имея информацию о характеристиках недвижимости для клиента и доступ к информации о доступной недвижимости осуществялет поиск, тратя на это свое время.   
 А3: Когда подходящая недвижимость найдена оформляется сделка с использованием риелтора, оператора-менеджера, набора документов и клиента. Агенство получает комиссионные и обновление базы недвижимости.  
 
 ## DFD-диаграмма (Блок: Управлять)
-![](https://github.com/Yorick55/Yorick55.github.io/blob/main/laba2/3rms.png)
+![](https://github.com/sickwick/scherbakov.github.io/blob/main/lr2/03_A1.png)
 
 Через систему оператор-менеджер обрабатывает заказ и заносит его в базу данных. Далее заказ утверждается и нотариус с применением системы формирует и подписывает договор, который заносится в базу данных. Далее через систему оператором-менеджером, используя данные о недвижимости, формируется список требоаний и характеристик недвижимости для клиента, который после занесения в базу данных передается риелтору.
 
 ## Usecase diagram
-![](https://github.com/Yorick55/Yorick55.github.io/blob/main/laba2/1uml.png)
+![](https://github.com/sickwick/scherbakov.github.io/blob/main/lr2/uml.png)
 
 # Лабораторная 3
 ## DFD-диаграмма (Блок: Управлять)
-![](https://github.com/Yorick55/Yorick55.github.io/blob/main/laba3/3rms.png)
+![](https://github.com/sickwick/scherbakov.github.io/blob/main/lr3/03_A1.png)
 
 Оператор-менеджер через систему обрабатывает заказ и заносит его в базу данных. Нотариус формирует и подписывает договор, который заносится в базу данных. Оператор-менеджер через систему, используя данные о недвижимости, формирует характеристики недвижимости для клиента. Характеристики после занесения в базу данных передается риелтору.
 
 ## Диаграмма последовательности
-![](https://github.com/Yorick55/Yorick55.github.io/blob/main/laba3/1_uml.png)
+![](https://github.com/sickwick/scherbakov.github.io/blob/main/lr3/uml1.png)
 
 Оператор-менеджер создает заказ в системе-агрегаторе деятельности.  
 Заказ записывется из системы в базу данных.  
@@ -57,7 +57,7 @@
 Характеристики недвижимости передаются риелтору.
 
 ## ER-диаграмма
-![](https://github.com/Yorick55/Yorick55.github.io/blob/main/laba3/2_uml.png)
+![](https://github.com/sickwick/scherbakov.github.io/blob/main/lr3/uml2.png)
 
 К Информационным потокам относится база данных, содержащая Заказы.
 Заказы состоят из: Клиента, Договора, Характеристик и Комиссионных.
